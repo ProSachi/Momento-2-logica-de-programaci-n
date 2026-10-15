@@ -3,21 +3,21 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        /*
-         * int edad;
-         * int EDADNINIO = 12;
-         * int EDADJOVEN = 18;
-         * 
-         * System.out.println("¿Cuál es tu edad?");
-         * edad = sc.nextInt();
-         * if (edad < EDADNINIO) {
-         * System.out.println("Carril niño");
-         * } else if (edad < EDADJOVEN) {
-         * System.out.println("Carril Joven");
-         * } else {
-         * System.out.println("Carril adulto");
-         * }
-         */
+
+        int edad;
+        int EDADNINIO = 12;
+        int EDADJOVEN = 18;
+
+        System.out.println("¿Cuál es tu edad?");
+        edad = sc.nextInt();
+        if (edad < EDADNINIO) {
+            System.out.println("Carril niño");
+        } else if (edad < EDADJOVEN) {
+            System.out.println("Carril Joven");
+        } else {
+            System.out.println("Carril adulto");
+        }
+
         int opcion = 0;
         do {
             System.out.println("1. Ingresar producto");
